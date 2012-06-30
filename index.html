@@ -40,22 +40,94 @@
 
     <div id="form-stuff">
       <form class="well">
-        <label>Crew 1</label>
-        <input type="text" class="span3 crew1-name" placeholder="Type something…">
-        <label>Crew 2</label>
-        <input type="text" class="span3 crew2-name" placeholder="Type something…">
+        <div class="crews clearfix">
+          <div class="crew1-input">
+            <label>Crew 1</label>
+            <input type="text" class="span3 crew1-name" placeholder="Type something…">
+          </div>
+          <span class="vs">VS</span>
+          <div class="crew2-input">
+            <label>Crew 2</label>
+            <input type="text" class="span3 crew2-name" placeholder="Type something…">
+          </div>
+        </div>
+
         <div class="control-group">
-          <label class="control-label">Winner</label>
+
+          <label class="control-label">Foundation</label>
           <div class="controls">
             <label class="radio1">
-              <input type="radio" name="optionsRadios" id="winner1" value="crew1" checked>
+              <input type="radio" name="fnd" id="fnd1" value="crew1">
               Crew 1 : <span></span>
             </label>
             <label class="radio2">
-              <input type="radio" name="optionsRadios" id="winner2" value="crew2">
+              <input type="radio" name="fnd" id="fnd2" value="crew2">
               Crew 2 : <span></span>
             </label>
-          </div>    
+          </div>
+
+          <label class="control-label">Originality</label>
+          <div class="controls">
+            <label class="radio1">
+              <input type="radio" name="org" id="org1" value="crew1">
+              Crew 1 : <span></span>
+            </label>
+            <label class="radio2">
+              <input type="radio" name="org" id="org2" value="crew2">
+              Crew 2 : <span></span>
+            </label>
+          </div> 
+
+          <label class="control-label">Execution</label>
+          <div class="controls">
+            <label class="radio1">
+              <input type="radio" name="exe" id="exe1" value="crew1">
+              Crew 1 : <span></span>
+            </label>
+            <label class="radio2">
+              <input type="radio" name="exe" id="exe2" value="crew2">
+              Crew 2 : <span></span>
+            </label>
+          </div>
+
+          <label class="control-label">Dynamics</label>
+          <div class="controls">
+            <label class="radio1">
+              <input type="radio" name="dyn" id="dyn1" value="crew1">
+              Crew 1 : <span></span>
+            </label>
+            <label class="radio2">
+              <input type="radio" name="dyn" id="dyn2" value="crew2">
+              Crew 2 : <span></span>
+            </label>
+          </div> 
+
+          <label class="control-label">Battle</label>
+          <div class="controls">
+            <label class="radio1">
+              <input type="radio" name="btl" id="btl1" value="crew1">
+              Crew 1 : <span></span>
+            </label>
+            <label class="radio2">
+              <input type="radio" name="btl" id="btl2" value="crew2">
+              Crew 2 : <span></span>
+            </label>
+          </div> 
+
+          <label class="control-label">Overall Winner</label>
+          <div class="controls">
+            <label class="radio1">
+              <input type="radio" name="win" id="winner1" value="crew1">
+              Crew 1 : <span></span>
+            </label>
+            <label class="radio2">
+              <input type="radio" name="win" id="winner2" value="crew2">
+              Crew 2 : <span></span>
+            </label>
+          </div>
+          <label class="final">Final Score:</label>
+          <input type="text" name="final1" id="final1" /> to <input type="text" name="final2" id="final2" />
+          <br />
         <div class="go btn btn-primary">Submit</div>
       </form>
     </div>
