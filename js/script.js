@@ -39,7 +39,7 @@ $(document).ready(function() {
 			c++;
 		});
 	});
-	// Advances Upon Clicking
+	// Advances Categories Upon Clicking
 	$('html').click(function(){
 		console.log(c);
 		switch (c) {
@@ -81,7 +81,7 @@ $(document).ready(function() {
 		console.log(win);
 		if (win == 'crew1') {
 			return crew1;
-		} else if (win == 'crew1') {
+		} else if (win == 'crew2') {
 			return crew2;
 		} else {
 			return "tie";
