@@ -226,6 +226,12 @@ h2 {
   color:#EEE;
   font-size:60px;
 }
+h3 {
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  font-size: 40px;
+}
 .winner {
   margin-top: 70px;
   text-align: center;
@@ -233,8 +239,16 @@ h2 {
   font-size: 100px;
   text-transform: uppercase;
 }
-
-
+.logo {
+  position: absolute;
+  top: -50px;
+  left: 20px;
+}
+.cat-img {
+  width:193px;
+  margin:10px auto;
+  display:block;
+}
 #form-stuff {
   position: absolute;
   left:22%;
@@ -246,7 +260,10 @@ h2 {
           box-shadow: 0px 0px 6px 0px #000; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
 
 }
-
+.crews {
+  width: 68%;
+  margin: 10px auto;
+}
 .go {
   font-size: 2.0em;
   line-height: 40px;
